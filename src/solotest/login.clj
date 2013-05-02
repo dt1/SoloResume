@@ -8,11 +8,6 @@
         hiccup.page
         hiccup.form))
 
-
-(defn valid? [passwd passwd2]
-  (if (not= passwd passwd2)
-    [:p "passwords do not match"]))
-
 (defn log-fields [coll]
   (for [[div label id type]]
     [div
