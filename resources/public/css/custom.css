@@ -1,0 +1,24 @@
+xs
+
+h1, h2{
+    color: #0e1c39;
+}
+
+i{
+    color: #2ba6cb;
+}
+
+.tabs.pill dd a, .tabs.pill li a {
+    color: #000;
+}
+
+.margin-top-fifty{
+    margin-top: 10%;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
