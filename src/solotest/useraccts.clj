@@ -75,10 +75,8 @@
     (if (crypt/compare passwd
                        (let [[{pwd :password}] tuser]
                          pwd))
-      ;; (let [utype (let [[{ut :usertype}] tuser]
-      ;;               ut)]
       (do (sesh/put! :uname username)
           (response/redirect "/")))
-;;      (response/redirect "/account-login" {:handle tuser :error "Login Failed"})
 
+;;; do "fail" code here
 ))
